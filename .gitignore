@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data and checkpoints (heavy, regenerable)
+data/raw/
+data/*.bin
+data/*.json
+data/*.model
+data/*.vocab
+out/
+*.pt
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Environment
+.env
+.env.local

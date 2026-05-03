@@ -1,0 +1,9 @@
+# Apollo training-time dependencies.
+# No Hugging Face transformers / accelerate / lightning by design.
+
+torch>=2.1
+numpy>=1.24
+tiktoken>=0.5
+sentencepiece>=0.2
+tqdm>=4.65
+requests>=2.31
